@@ -1,8 +1,8 @@
 # HealthPals 🐾
 
-**HealthPals** is an open-source desktop health and break reminder app that lives in your system tray. It features animated companions—such as **Biscuit** 🐶 (a bulldog) and **Kuji** 🐋 (a blue whale)—that deliver periodic reminders to stand, stretch, hydrate, and rest your eyes during work sessions.
+**HealthPals** is an open-source desktop health and break reminder app that lives in your system tray. It features animated companions such as **Biscuit** 🐶 (a bulldog) and **Kuji** 🐋 (a blue whale) that deliver periodic reminders to stand, stretch, hydrate, and rest your eyes during work sessions.
 
-All visual components—including the animated mascots and tray icons—are drawn programmatically in code using Qt vector primitives (`QPainter`). This keeps the app lightweight, eliminates external image asset dependencies, and ensures high-DPI scaling at any resolution.
+All visual components, including the animated mascots and tray icons, are drawn programmatically in code using Qt vector primitives (`QPainter`). This keeps the app lightweight, eliminates external image asset dependencies, and ensures high-DPI scaling at any resolution.
 
 ---
 
