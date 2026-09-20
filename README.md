@@ -4,6 +4,8 @@
 
 All visual components, including the animated mascots and tray icons, are drawn programmatically in code using Qt vector primitives (`QPainter`). This keeps the app lightweight, eliminates external image asset dependencies, and ensures high-DPI scaling at any resolution.
 
+![HealthPals Dashboard](assets/dashboard.png)
+
 ---
 
 ## Features ✨
@@ -15,6 +17,10 @@ All visual components, including the animated mascots and tray icons, are drawn 
   - **Animated card popup:** A rounded window slides up from the corner of the screen and auto-dismisses after a short period.
   - **Windows system notification:** Standard system tray notification balloon.
 - **Integrated Pomodoro timer:** A focus timer with configurable work and break intervals. Health nudges can automatically be suppressed during active focus blocks.
+
+<p align="center">
+  <img src="assets/popup.png" alt="Animated Card Popup" width="400"/>
+</p>
 - **Schedule management:** Define active working hours and days, adjust global reminder frequency, snooze incoming nudges, or pause reminders with a single click.
 - **Synthesized notification sound:** Generates a soft two-note audio chime programmatically at runtime, avoiding external audio files or default system beeps. Can be muted anytime.
 - **User-scoped launch at login:** Optional autostart configured strictly within user registry/config scope, requiring no administrator permissions.
@@ -64,6 +70,8 @@ On first launch, the main window opens. Closing the window minimizes HealthPals 
 ---
 
 ## Configuration ⚙️
+
+![HealthPals Settings](assets/settings.png)
 
 Access **Settings** from the dashboard or tray menu to:
 
