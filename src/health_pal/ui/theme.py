@@ -16,7 +16,7 @@ class Palette:
     INK = QColor("#4A3B32")          # soft brown text
     INK_SOFT = QColor("#8A7A6D")
 
-    # Biscuit's coat.
+    # Bull-dee's coat.
     FUR_BROWN = QColor("#9C6B43")
     FUR_BROWN_DARK = QColor("#7E5231")
     FUR_CREAM = QColor("#F7E9D5")

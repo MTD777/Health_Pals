@@ -14,7 +14,7 @@ mascot lives in the system tray and gently reminds the user to move, stretch,
 hydrate, rest their eyes, and stay focused during the working day. It also
 includes a Pomodoro-style focus timer.
 
-- **First companion:** **Biscuit**, a brown-and-white bulldog with
+- **First companion:** **Bull-dee**, a brown-and-white bulldog with
   heterochromia (one blue eye, one brown eye).
 - **Second companion:** **Kuji**, a blue whale.
 - Everything visual (mascots, tray icon) is **drawn in code with QPainter** —
@@ -80,7 +80,7 @@ src/health_pal/
   mascots/
     __init__.py            # MASCOTS registry + create_mascot()
     base.py                # Mascot base: shared 30 FPS animation + mood engine
-    bulldog.py             # Biscuit (BulldogMascot)
+    bulldog.py             # Bull-dee (BulldogMascot)
     whale.py               # Kuji (WhaleMascot)
   ui/
     theme.py               # Palette, fonts, reusable stylesheet snippets

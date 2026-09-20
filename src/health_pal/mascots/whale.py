@@ -1,6 +1,6 @@
 """Kuji — a gentle, roly-poly blue whale companion.
 
-Like Biscuit, Kuji is drawn entirely with QPainter and reuses the shared
+Like Bull-dee, Kuji is drawn entirely with QPainter and reuses the shared
 mood vocabulary (idle, wave, cheer, stretch, walk, drink, eyes). Kuji floats
 with a soft bob, blinks, waves a fin, and puffs a little spout when cheering.
 """

@@ -1,7 +1,7 @@
 """Reminder definitions.
 
 A reminder is just data: what to nudge about, how often, and which cheerful
-line Biscuit says. Keeping these as simple immutable records (no behaviour)
+line Bull-dee says. Keeping these as simple immutable records (no behaviour)
 makes the system easy to reason about and extend with new activities.
 """
 from __future__ import annotations
@@ -25,7 +25,7 @@ class Reminder:
     id: str
     title: str
     emoji: str
-    # A few message variants so Biscuit doesn't sound repetitive.
+    # A few message variants so Bull-dee doesn't sound repetitive.
     messages: tuple[str, ...]
     default_interval_min: int
     mood: str = MOOD_WAVE

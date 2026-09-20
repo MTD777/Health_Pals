@@ -1,7 +1,7 @@
 """Main dashboard window.
 
 Deliberately a plain framed window (not a custom-drawn frame) to keep things
-simple and predictable. It hosts Biscuit, the "what's next" hint, quick
+simple and predictable. It hosts Bull-dee, the "what's next" hint, quick
 controls and the pomodoro timer.
 """
 from __future__ import annotations
@@ -85,7 +85,7 @@ class MainWindow(QWidget):
         title = QLabel("HealthPals")
         title.setFont(app_font(20, bold=True))
         title.setStyleSheet(f"color: {Palette.INK.name()};")
-        self._subtitle = QLabel("with Biscuit 🐾")
+        self._subtitle = QLabel("with Bull-dee 🐾")
         self._subtitle.setFont(app_font(11))
         self._subtitle.setStyleSheet(f"color: {Palette.INK_SOFT.name()};")
         header.addWidget(title)

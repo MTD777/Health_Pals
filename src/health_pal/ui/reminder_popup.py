@@ -1,7 +1,7 @@
 """High-profile reminder popup.
 
 A small, rounded, frameless card that slides up from the bottom-right corner
-with Biscuit and a speech bubble. Non-modal and auto-dismissing so it never
+with Bull-dee and a speech bubble. Non-modal and auto-dismissing so it never
 blocks your work — you can ignore it and it fades away on its own.
 """
 from __future__ import annotations

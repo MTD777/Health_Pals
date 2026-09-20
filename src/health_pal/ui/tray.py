@@ -29,7 +29,7 @@ class HealthTray(QSystemTrayIcon):
         icon_source = create_mascot(config.companion)
         self.setIcon(QIcon(icon_source.render_icon(64)))
         icon_source.deleteLater()
-        self.setToolTip("HealthPals — Biscuit is looking after you 🐾")
+        self.setToolTip("HealthPals — Bull-dee is looking after you 🐾")
 
         self._build_menu()
         self.activated.connect(self._on_activated)

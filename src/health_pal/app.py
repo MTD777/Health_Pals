@@ -54,7 +54,7 @@ class HealthPalsApp:
             self._config.save()
             self._show_window()
             self._tray.notify(
-                "Hi, I'm Biscuit! 🐶",
+                "Hi, I'm Bull-dee! 🐶",
                 "I'll gently remind you to move, stretch and rest. "
                 "Find me in the tray anytime.",
             )

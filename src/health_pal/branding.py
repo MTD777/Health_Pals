@@ -18,7 +18,7 @@ if getattr(sys, "frozen", False):
 else:
     _BASE = Path(__file__).resolve().parents[2]
 _ASSETS = _BASE / "assets"
-APP_USER_MODEL_ID = "HealthPals.Biscuit.App"
+APP_USER_MODEL_ID = "HealthPals.Bulldee.App"
 
 
 def icon_path() -> Path | None:

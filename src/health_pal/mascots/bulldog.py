@@ -1,6 +1,6 @@
-"""Biscuit — a cute brown & white bulldog with heterochromia.
+"""Bull-dee — a cute brown & white bulldog with heterochromia.
 
-Drawn entirely with QPainter (no binary art assets), so Biscuit scales
+Drawn entirely with QPainter (no binary art assets), so Bull-dee scales
 crisply to any size and animates cheaply. The left eye is sky-blue, the
 right eye is warm brown, exactly as requested.
 
@@ -20,10 +20,10 @@ _OUTLINE = QColor("#5E3D26")
 
 
 class BulldogMascot(Mascot):
-    """Biscuit the bulldog."""
+    """Bull-dee the bulldog."""
 
-    display_name = "Biscuit"
-    mascot_id = "biscuit"
+    display_name = "Bull-dee"
+    mascot_id = "bulldee"
 
     # ------------------------------------------------------------------ #
     def paint_mascot(self, painter: QPainter, rect: QRectF) -> None:

@@ -26,7 +26,7 @@ class Config:
     """All user-tunable settings."""
 
     # --- General ---
-    companion: str = "biscuit"          # active mascot id
+    companion: str = "bulldee"          # active mascot id
     notification_profile: str = PROFILE_HIGH
     autostart: bool = False
     play_sounds: bool = True
