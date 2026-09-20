@@ -1,0 +1,3 @@
+# HealthPals — cute desktop health companion
+# Core GUI framework (LGPL). Provides system tray, animations, notifications.
+PySide6>=6.6.0
